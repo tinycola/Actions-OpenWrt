@@ -18,8 +18,8 @@ on:
     paths:
       - '.config'
 #  schedule:
-#   watch:
-#     types: started
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/tinycola/openwrt
